@@ -1,12 +1,10 @@
-# 
+# 作品名称：智能手表（原型机）
 
-#作品名称：智能手表（原型机）
-
-##作品简介
+## 作品简介
 
     基于国民技术的芯片-N32G457VEL7，RT-Thread实时操作系统，与LVGL8.3,开发的一款智能手表。可以通过WIFI模块ESP8266模块获取实时的时间，天气信息，通过MPU6050获取步数信息。
 
-##硬件信息：
+## 硬件信息：
 
    1. 国民技术N32G45XVL-STB开发板
 
@@ -14,17 +12,17 @@
 
    3. 加速度计MPU6050
 
-##作品图片
+## 作品图片
 
 <img title="" src="https://github.com/piupiuyang/RT-Thread_Learning/blob/main/1.%E4%BD%9C%E5%93%81%E5%9B%BE%E7%89%87/%E4%BD%9C%E5%93%81%E5%9B%BE%E7%89%87.jpg" alt="c6895f19be9f5aec50b3db41492ba09.jpg" width="412">
 
-##作品展示视频链接
+## 作品展示视频链接
 
     [RT- thread 夏令营 作品展示 基于 RT-thread 和LVGL8.3 的智能手表雏形_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Ld4y1N7Tj?spm_id_from=333.337.search-card.all.click&vd_source=dcfacbf5268adf5c99b87c526fd7d375)
 
-##RT-Thread使用情况
+## RT-Thread使用情况
 
-    ###线程：
+### 线程：
 
                 weather    每十分钟进行一次天气信息，实时时间的获取
 
@@ -32,9 +30,9 @@
 
                 agbtn        监测按键使用情况
 
-####线程通信目前只应用了邮箱让weather线程向LVGL线程发送天气数据                                 
+#### 线程通信目前只应用了邮箱让weather线程向LVGL线程发送天气数据
 
-    ###软件包：
+### 软件包：
 
                     agile_button-latest    一款已经封装好按键各项功能的软件包
 
@@ -48,10 +46,10 @@
 
                     webclient-latest           WebClient 软件包是 RT-Thread 自主研发的，基于 HTTP 协议的客户端的实现，它提供设备与 HTTP Server 的通讯的基本功能。
 
-##硬件架构
+## 硬件架构
 
 ![ca4b9a0831ec26b9086e70eb9f3d26f.jpg](https://github.com/piupiuyang/RT-Thread_Learning/blob/main/1.%E4%BD%9C%E5%93%81%E5%9B%BE%E7%89%87/%E7%A1%AC%E4%BB%B6%E6%A1%86%E6%9E%B6.jpg)
 
-##软件架构
+## 软件架构
 
 ![ebb5ad15b3aa775db0e3c991107668a.jpg](https://github.com/piupiuyang/RT-Thread_Learning/blob/main/1.%E4%BD%9C%E5%93%81%E5%9B%BE%E7%89%87/%E8%BD%AF%E4%BB%B6%E6%A1%86%E6%9E%B6.jpg)
