@@ -50,8 +50,8 @@
 
 ##硬件架构
 
-![ca4b9a0831ec26b9086e70eb9f3d26f.jpg](D:\RT-thread\my_ware\RT-Thread_Learning\1.作品图片\硬件框架.jpg)
+![ca4b9a0831ec26b9086e70eb9f3d26f.jpg](https://github.com/piupiuyang/RT-Thread_Learning/blob/main/1.%E4%BD%9C%E5%93%81%E5%9B%BE%E7%89%87/%E7%A1%AC%E4%BB%B6%E6%A1%86%E6%9E%B6.jpg)
 
 ##软件架构
 
-![ebb5ad15b3aa775db0e3c991107668a.jpg](D:\RT-thread\my_ware\RT-Thread_Learning\1.作品图片\软件框架.jpg)
+![ebb5ad15b3aa775db0e3c991107668a.jpg](https://github.com/piupiuyang/RT-Thread_Learning/blob/main/1.%E4%BD%9C%E5%93%81%E5%9B%BE%E7%89%87/%E8%BD%AF%E4%BB%B6%E6%A1%86%E6%9E%B6.jpg)
